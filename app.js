@@ -7,10 +7,7 @@ import trouter from './Routes/team.routes.js';
 import hrouter from './Routes/Highlights.routes.js';
 
 const app = express();
-app.use(cors({
-    origin: '*',
-    credentials: "include"
-}))
+app.use(cors());
 app.use(express.json({limit :"16kb"}))
 app.use(express.urlencoded({extended :true ,limit:"16kb"}))
 app.use(express.static("public"))
