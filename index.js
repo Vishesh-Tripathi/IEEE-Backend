@@ -11,7 +11,7 @@ dotenv.config({
 
 
 const port = process.env.PORT || 5000;
-app.get('/',(req,res)=>{
+app.get('/v1',(req,res)=>{
     res.send("Hello from express")
 })
 connectDB()
