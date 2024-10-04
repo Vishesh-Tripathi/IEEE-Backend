@@ -10,7 +10,7 @@ app.use(cors({
     origin: ['https://ieee-frontend-j0losar5y-vishesh-tripathis-projects.vercel.app'],
     credentials: "include"
 }))
-app.use(cors());
+// app.use(cors());
 app.use(express.json({limit :"16kb"}))
 app.use(express.urlencoded({extended :true ,limit:"16kb"}))
 app.use(express.static("public"))
