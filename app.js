@@ -5,7 +5,7 @@ import router from './Routes/user.routes.js';
 import eventrouter from './Routes/events.routes.js'
 import trouter from './Routes/team.routes.js';
 import hrouter from './Routes/Highlights.routes.js';
-
+const app = express();
 app.use(cors({
     origin: ['https://ieee-frontend-j0losar5y-vishesh-tripathis-projects.vercel.app'],
     credentials: "include"
