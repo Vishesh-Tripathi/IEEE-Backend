@@ -21,4 +21,4 @@ app.use('/teams',trouter);
 app.use('/highlights',hrouter);
 
 
-export{app};
+export {app};
