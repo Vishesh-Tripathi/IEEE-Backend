@@ -9,7 +9,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: ['https://ieee-frontend-two.vercel.app'],  // Explicitly set the allowed origin
+    origin: ['https://ieee-frontend-two.vercel.app','http://localhost:5173'],  // Explicitly set the allowed origin
     credentials: true  // This allows credentials (cookies, authentication) to be sent
 }));
 
